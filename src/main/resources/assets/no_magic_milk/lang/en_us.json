@@ -1,0 +1,7 @@
+{
+  "text.autoconfig.no_magic_milk.title": "No Magic Milk Config",
+  "text.autoconfig.no_magic_milk.option.durationMultiplier": "Duration Multiplier",
+  "text.autoconfig.no_magic_milk.option.amplifierMultiplier": "Amplifier Multiplier",
+  "text.autoconfig.no_magic_milk.option.isBlacklist": "Filter is Blacklist",
+  "text.autoconfig.no_magic_milk.option.effectFilter": "Filter"
+}

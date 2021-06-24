@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "no_magic_milk",
+  "version": "${version}",
+
+  "name": "No Magic Milk",
+  "description": "Allows making milk less overpowered",
+  "authors": [
+    "MattiDragon"
+  ],
+  "contact": {
+    "sources": "https://github.com/MattiDragon/no-magic-milk"
+  },
+
+  "license": "MIT",
+  "icon": "assets/no_magic_milk/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "modmenu": [
+      "io.github.mattidragon.nomagicmilk.config.ModMenu"
+    ],
+    "main": [
+      "io.github.mattidragon.nomagicmilk.NoMagicMilk"
+    ]
+  },
+  "mixins": [
+    "no_magic_milk.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16",
+    "cloth-config2": ">=5.0.0"
+  },
+  "suggests": {
+    "modmenu": ">=2.0.0"
+  }
+}
